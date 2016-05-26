@@ -1,0 +1,4 @@
+		.ORIG x3000
+		JMP R2
+		.END
+

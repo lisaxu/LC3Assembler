@@ -1,0 +1,15 @@
+.ORIG   x3000
+PRINT       
+BRn PRINT 
+BRz PRINT 
+BRp PRINT 
+BRnz PRINT 
+BRzp PRINT 
+BRnzp PRINT    
+
+				
+.END    
+
+;THIS LINE IS COMMENT
+;PRINT       
+;BRnp PRINT   

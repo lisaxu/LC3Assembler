@@ -1,0 +1,10 @@
+.ORIG   x3000
+   
+POP R1
+PUSH R1
+				
+.END    
+
+;THIS LINE IS COMMENT
+;PRINT       
+;BRnp PRINT   

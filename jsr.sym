@@ -1,0 +1,6 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	PRINT             3001
+//	ONE               3008

@@ -1,0 +1,22 @@
+lc3tools/lc3as -hex add.asm
+
+lc3tools/lc3convert -b10 add.hex
+
+pass R1 will return a 3-bit value 001
+
+x3010 LD R7,Label1
+offset = PC address - (label + 1)
+
+.FILL: initialize to FFFF
+.BLKW n: reserve a block of memory (4 consequtive pieces), and is 0000
+calloc (sizeof(mem_t) * n)
+
+void asm_pass_one (char* asm_file_name, char* sym_file_name) {
+//if the char* is null just exit
+//while + fgets, pass to tokenizer fcn, 
+//split-> optcode,registers including commas, create node for each token and create a linked list
+//each line can begin with a label, if so, there cannot have any other label, the second label must be an optcode 
+}
+
+
+void lc3as_error (char* msg, ...) 

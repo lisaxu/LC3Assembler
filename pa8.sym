@@ -1,0 +1,20 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	TEN               3040
+//	EXIT              303c
+//	DIVIDE            302f
+//	CONTINUE          302c
+//	PRINT             3008
+//	MAIN              3002
+//	DONE              3022
+//	OUTPUT            3025
+//	DIGIT             3041
+//	RECURSE           300e
+//	STACK             3042
+//	LOOP0             301b
+//	LOOP1             3038
+//	NORECURSE         3017
+//	PARAM             3001
+//	BODY              300b

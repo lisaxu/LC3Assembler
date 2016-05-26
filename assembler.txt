@@ -1,0 +1,10 @@
+Answer is from
+~cs270/lc3tools/lc3as -hex FILE_TO_TEST.asm
+This generates a .hex file.
+
+To test my code:
+under ~/CS270/PA10:
+run  mylc3as -hex FILE_TO_TEST.asm
+Compare the generated .hex file with the answer
+
+All FILE_TO_TEST.asm are in the ~/CS270/Test directory
